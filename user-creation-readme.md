@@ -53,3 +53,37 @@ Método que permite crear y persistir un usuario en base de datos H2
     ]
 }
 ```
+
+## JSON SALIDA
+
+```yaml
+{
+    "id": "52163568-c897-4697-b9eb-2c894e03c0a0",
+    "created": "2024-03-01T16:18:11.987",
+    "modified": "2024-03-01T16:18:11.987",
+    "lastLogin": "2024-03-01T16:18:11.987",
+    "token": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQHVzZXJzLmNvbSIsImV4cCI6MTcxMTg5MTY1NCwibm9tYnJlIjoidXN1YXJpbyBkb3MifQ.1yNcAo-OUBMxoUYFY8sN_YpgcRycyj8KpIotb8uB9x4",
+    "active": true
+}
+```
+
+
+## JSON ERROR 409
+
+```yaml
+{
+    "code": "Email Registration Error",
+    "message": "El correo ya está registrado"
+}
+```
+
+
+## JSON ERROR 400
+
+```yaml
+{
+    "code": "Email format Error",
+    "message": "Formato inválido, por favor revise."
+}
+```
+
