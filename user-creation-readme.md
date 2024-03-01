@@ -17,9 +17,9 @@ Test de evaluacion de conocimientos JAVA para NISUM
 Método que permite crear y persistir un usuario en base de datos H2
 
 ## Diagrama
-´
+```
 
-´
+```
 
 ## Detalles del servicio
 - Servicio recibe JSON con información de usuario.
@@ -39,7 +39,10 @@ Método que permite crear y persistir un usuario en base de datos H2
 
 ## JSON ENTRADA
 
-´
+```yaml
+{
+   "this-json": "looks awesome..."
+}
 {
     "name": "Juan Rodriguez",
     "email": "juan@rodriguez.com",
@@ -52,4 +55,4 @@ Método que permite crear y persistir un usuario en base de datos H2
         }
     ]
 }
-´
+```
