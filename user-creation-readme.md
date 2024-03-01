@@ -41,9 +41,6 @@ Método que permite crear y persistir un usuario en base de datos H2
 
 ```yaml
 {
-   "this-json": "looks awesome..."
-}
-{
     "name": "Juan Rodriguez",
     "email": "juan@rodriguez.com",
     "password": "hunter2",
