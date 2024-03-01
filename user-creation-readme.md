@@ -37,4 +37,19 @@ Método que permite crear y persistir un usuario en base de datos H2
 
 ![imagen](https://github.com/hulloamartinez/eval-nisum/assets/5367860/aef87de3-6e93-4398-a3e3-ac485694cbcb)
 
+## JSON ENTRADA
 
+´
+{
+    "name": "Juan Rodriguez",
+    "email": "juan@rodriguez.com",
+    "password": "hunter2",
+    "phones": [
+        {
+            "number": "1234567",
+            "citycode": "1",
+            "contrycode": "57"
+        }
+    ]
+}
+´
