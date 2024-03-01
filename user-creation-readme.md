@@ -28,6 +28,9 @@ Método que permite crear y persistir un usuario en base de datos H2
 - Servicio devuevle resumen de la transacción realizada.
 
 ## Parámetros de entrada
+NOMBRE	TIPO	RESTRICCIONES
+name	String	Not null, not empty
+email	String	Not null, not empty, UNIQUE
+password	String	Not Null, Not empty
+![imagen](https://github.com/hulloamartinez/eval-nisum/assets/5367860/7030e1ff-bb34-4ff4-9136-d5491af1f861)
 
-|-------------------------|---------|----------|
-|                          |     |             |
