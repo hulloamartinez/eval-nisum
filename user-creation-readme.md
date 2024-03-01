@@ -30,3 +30,4 @@ Método que permite crear y persistir un usuario en base de datos H2
 ## Parámetros de entrada
 
 |-------------------------|---------|----------|
+|                          |     |             |
